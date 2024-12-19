@@ -7,10 +7,10 @@ def primeiro_refrao():
     ]
 
 
-def animaizinhos(animal, animais):
+def animalzinhos(animal, animais):
     return [
-        f"Os animaizinhos subiram de dois em dois",
-        f"Os animaizinhos subiram de dois em dois",
+        f"Os animalzinhos subiram de dois em dois",
+        f"Os animalzinhos subiram de dois em dois",
         f"{animal}",
         f"E {animais}, como os filhos do Senhor",
     ]
@@ -43,9 +43,9 @@ def verso_formando(pequena_frase):
 
 def letra_musica():
     refrao = primeiro_refrao()
-    animaizinhos1 = animaizinhos("O elefante", "os passarinhos")
-    animaizinhos2 = animaizinhos("A minhoquinha", "os pinguins")
-    animaizinhos3 = animaizinhos("O canguru", "o sapinho")
+    animalzinhos1 = animalzinhos("O elefante", "os passarinhos")
+    animalzinhos2 = animalzinhos("A minhoquinha", "os pinguins")
+    animalzinhos3 = animalzinhos("O canguru", "o sapinho")
     verso = primeiro_verso()
     outro_refrao = segundo_refrao()
 
@@ -63,18 +63,18 @@ def letra_musica():
         {"tempo": 25000, "texto": refrao[1]}, 
         {"tempo": 29000, "texto": refrao[2]}, 
         {"tempo": 32000, "texto": refrao[3]}, 
-        {"tempo": 38000, "texto": animaizinhos1[0]},
-        {"tempo": 41000, "texto": animaizinhos1[1]}, 
-        {"tempo": 45000, "texto": animaizinhos1[2]},
-        {"tempo": 47000, "texto": animaizinhos1[3]}, 
-        {"tempo": 52000, "texto": animaizinhos2[0]},  
-        {"tempo": 55000, "texto": animaizinhos2[1]},  
-        {"tempo": 59000, "texto": animaizinhos2[2]},  
-        {"tempo": 61000, "texto": animaizinhos2[3]},  
-        {"tempo": 66000, "texto": animaizinhos3[0]},  
-        {"tempo": 69000, "texto": animaizinhos3[1]},  
-        {"tempo": 72000, "texto": animaizinhos3[2]},  
-        {"tempo": 75000, "texto": animaizinhos3[3]},  
+        {"tempo": 38000, "texto": animalzinhos1[0]},
+        {"tempo": 41000, "texto": animalzinhos1[1]}, 
+        {"tempo": 45000, "texto": animalzinhos1[2]},
+        {"tempo": 47000, "texto": animalzinhos1[3]}, 
+        {"tempo": 52000, "texto": animalzinhos2[0]},  
+        {"tempo": 55000, "texto": animalzinhos2[1]},  
+        {"tempo": 59000, "texto": animalzinhos2[2]},  
+        {"tempo": 61000, "texto": animalzinhos2[3]},  
+        {"tempo": 66000, "texto": animalzinhos3[0]},  
+        {"tempo": 69000, "texto": animalzinhos3[1]},  
+        {"tempo": 72000, "texto": animalzinhos3[2]},  
+        {"tempo": 75000, "texto": animalzinhos3[3]},  
         {"tempo": 80000, "texto": verso[0]}, 
         {"tempo": 83000, "texto": verso[1]},  
         {"tempo": 86000, "texto": verso[2]},  
